@@ -1,0 +1,27 @@
+{
+  "name": "mocchann.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/mocchann/mocchann.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "TAILWIND_MODE=watch postcss styles.css -o dist.css -w",
+    "build": "NODE_ENV=production postcss styles.css -o dist.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocchann/mocchann.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mocchann/mocchann.github.io/issues"
+  },
+  "homepage": "https://github.com/mocchann/mocchann.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "cssnano": "^5.0.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  }
+}
