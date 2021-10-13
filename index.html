@@ -12,7 +12,7 @@
     <div class="bg-gray-500">
       <header class="container mx-auto text-white pb-1 mt-16 md:mt-0">
         <div class="flex justify-between items-center fixed w-full left-0 h-16 bg-gray-500 px-2 md:static">
-          <h1 class="text-4xl font-semibold md:text-xl">HR</h1>
+          <h1 class="text-4xl font-semibold md:text-xl">mocchann's pages</h1>
           <div>
             <button @click="isOpen = !isOpen" class="focus:outline-none md:invisible">
               <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -26,25 +26,24 @@
           <ul class="md:flex md:justify-end md:items-center">
             <li class="border-b md:border-none">
               <a href="#" class="block px-8 py-2 my-4 hover:bg-gray-600 rounded">
-                HRとは
+                プロフィール
               </a>
             </li>
             <li class="border-b md:border-none">
               <a href="#" class="block px-8 py-2 my-4 hover:bg-gray-600 rounded">
-                機能一覧
+                ポートフォリオ
               </a>
             </li>
             <li class="border-b md:border-none">
               <a href="#" class="block px-8 py-2 my-4 hover:bg-gray-600 rounded">
-                料金プラン
+                技術スタック
               </a>
             </li>
-            <li class="border-b md:border-none">
+            <li>
               <a href="#" class="block px-8 py-2 my-4 hover:bg-gray-600 rounded">
-                お知らせ
+                お問い合わせ
               </a>
             </li>
-            <li><a href="#" class="block px-8 py-2 my-4 hover:bg-gray-600 rounded">お問い合わせ</a></li>
           </ul>
         </div>
       </header>
@@ -55,9 +54,11 @@
       <p>コンテンツ領域</p>
     </div>
   </main>
-  <footer>
-    <p>mocchann's portfolio</p>
-  </footer>
+  <div class="bg-gray-500">
+    <footer class="container mx-auto text-white pb-1 mt-16 md:mt-0">
+      <p class="text-center">mocchann's portfolio</p>
+    </footer>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <script>
     const app = new Vue({
