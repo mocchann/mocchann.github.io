@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>MENU</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fceabb 0%, #f8b500 30%, #f8b500 100%);
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 10px;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .menu {
+      width: 100%;
+      max-width: 1000px;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: 0 auto;
+    }
+    .menu h1 {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      font-size: 3rem;
+      color: #6B4E31;
+      margin-bottom: 30px;
+    }
+    .menu-section {
+      margin-bottom: 40px;
+    }
+    .menu-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #C0A000;
+      border-bottom: 2px solid #C0A000;
+      padding-bottom: 8px;
+    }
+    .menu-section ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .menu-section ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      letter-spacing: 0.3px;
+      position: relative;
+    }
+    .menu-section ul li:last-child {
+      border-bottom: none;
+    }
+    .menu-section ul li::before {
+      content: "≫ ";
+      color: #C0A000;
+      font-family: 'Playfair Display', serif;
+      margin-right: 10px;
+    }
+    /* スマホ対応：600px以下 */
+    @media screen and (max-width: 600px) {
+      body {
+        padding: 5px;
+      }
+      .menu {
+        padding: 25px;
+      }
+      .menu h1 {
+        font-size: 2.2rem;
+      }
+      .menu-section h2 {
+        font-size: 1.6rem;
+      }
+      .menu-section ul li {
+        font-size: 1.2rem;
+      }
+    }
+    /* iPhone SEなど、さらに狭い画面向けの調整（375px以下） */
+    @media screen and (max-width: 375px) {
+      body {
+        padding: 3px;
+      }
+      .menu {
+        padding: 20px;
+      }
+      .menu h1 {
+        font-size: 2rem;
+      }
+      .menu-section h2 {
+        font-size: 1.4rem;
+      }
+      .menu-section ul li {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <h1>MENU</h1>
+    <div class="menu-section">
+      <h2>アミューズ</h2>
+      <ul>
+        <li>蟹クリームコロッケ</li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>冷菜</h2>
+      <ul>
+        <li>鰹のタタキ にんにく醤油ドレッシング</li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>温菜</h2>
+      <ul>
+        <li>もち豚ばら肉の低温ロティ マスタードソース</li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>スープ</h2>
+      <ul>
+        <li>コンソメスープ</li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>魚料理</h2>
+      <ul>
+        <li>本日の鮮魚のポワレ パプリカソース</li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>お口直し</h2>
+      <ul>
+        <li>季節のフルーツのグラニテ</li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>肉料理</h2>
+      <ul>
+        <li>黒毛和牛ロース肉/黒毛和牛フィレ肉のステーキ</li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>パン</h2>
+      <ul>
+        <li>パン各種（バゲット、ブリオッシュなど）</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
